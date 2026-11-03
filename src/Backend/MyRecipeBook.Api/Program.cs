@@ -13,8 +13,8 @@ builder.Services.AddControllers().AddJsonOptions(options =>
 );
 builder.Services.AddOpenApi();
 builder.Services.AddSwaggerGen();
-builder.Services.AddInfrastructure();
 builder.Services.AddApplication();
+builder.Services.AddInfrastructure(builder.Configuration);
 
 builder.Services.Configure<RequestLocalizationOptions>(options =>
 {
