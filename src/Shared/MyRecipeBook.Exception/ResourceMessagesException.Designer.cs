@@ -70,11 +70,11 @@ namespace MyRecipeBook.Exception {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Unknown error..
+        ///   Looks up a localized string similar to Oops! This email is already in use..
         /// </summary>
-        public static string UNKNOWN_ERROR1 {
+        public static string VALIDATION_EMAIL_ALREADY_EXISTS {
             get {
-                return ResourceManager.GetString("UNKNOWN_ERROR1", resourceCulture);
+                return ResourceManager.GetString("VALIDATION_EMAIL_ALREADY_EXISTS", resourceCulture);
             }
         }
         
